@@ -39,7 +39,7 @@ public class TestClassificationML {
     // Prepare training documents, which are labeled.
     List<LabeledDocument> localTraining = Lists.newArrayList(
       new LabeledDocument(0L, "aakdupakdu", 1.0),
-      new LabeledDocument(1L, "b d", 0.0),
+      new LabeledDocument(1L, "A c", 0.0),
       new LabeledDocument(2L, "aakdupakdu f g h", 1.0),
       new LabeledDocument(3L, "hadoop mapreduce", 0.0),
       new LabeledDocument(4L, "aakdupaaaakdo mapreduce", 0.0));
